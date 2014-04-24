@@ -1,0 +1,523 @@
+<!doctype html>
+<!--?xml version="1.0" encoding="Shift_JIS"?-->
+<html style="zoom: 1;"><head>
+<base href="http://sp.g.31sumai.com/" />
+<meta charset="Shift_JIS">
+<meta name="viewport" content="width=device-width, user-scalable=0">
+<meta name="format-detection" content="telephone=no">
+<meta name="keywords" content="資料請求,マンション,新築マンション,分譲マンション,新築一戸建て,分譲一戸建て,一戸建,三井の住まい,sp.31sumai.com,三井不動産レジデンシャル">
+<meta name="description" content="資料請求。「三井の住まい」スマートフォンサイト。三井不動産レジデンシャルの運営する「三井の住まい(sp.31sumai.com)」は、新築マンション・分譲マンション・新築一戸建て・分譲一戸建ての住まい情報総合サイトです。">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="content-script-type" content="text/javascript">
+<title>資料請求 | 三井の住まい:三井不動産レジデンシャル</title>
+<link rel="canonical" href="http://sp.g.31sumai.com/sp/doc?id=X0930">
+
+<link rel="apple-touch-icon-precomposed" href="http://sp.31sumai.com/cmn/images/apple-touch-icon-precomposed.png">
+<link rel="stylesheet" type="text/css" href="/cmn/css/import.css" media="all">
+<script type="text/javascript" src="/cmn/js/jquery.js"></script><style type="text/css"></style>
+<script type="text/javascript" src="/cmn/js/landscape.js"></script>
+<script type="text/javascript" src="/cmn/js/default.js"></script>
+<script type="text/javascript" src="/cmn/js/ChangeUrl.js"></script>
+<script>
+$(function(){
+	$("section.before p").click(function(){
+		$("section.before").removeClass("before").addClass("input");
+	});
+
+	var flg = 0;
+	$("#rec_fav").click(function(){
+		var callback = function(){
+			if(flg==0){
+				$("#rec_fav").addClass("open");
+				flg = 1;
+			} else {
+				$("#rec_fav").removeClass("open");
+				flg = 0;
+			}
+		};
+		$("#formCheck").slideToggle(callback);
+	});
+
+	$("#request #formCheck input").change(function(){
+		$("#request #formCheck li").removeClass("checked");
+		$("#request #formCheck input:checked").parent("li").addClass("checked");
+
+	});
+
+
+	$("#modal").css({
+		height:$(window).height()+"px"
+	});
+
+	$(".addressinput .btn a").click(function(){
+		var st = $(window).scrollTop();
+		$("#modal").css({
+			top: st-40 +"px"
+		});
+	});
+
+	$("#modal #reflectWindow .btn").click(function(){
+		$("#modal").css({
+			display:"none"
+		});
+	});
+
+	var modal = function(){
+		$("#modal").css({
+			display:"block"
+		});
+	}
+
+
+	//modal();
+
+	 if ($("#rec_fav").hasClass("opened")){
+		 $("#rec_fav").addClass("open");
+		 flg = 1;
+		 $("#formCheck").show();
+
+	 }
+
+
+});
+</script>
+<script type="text/javascript">
+<!--
+//郵便番号変更による初期化
+function ClearZipCd(){
+	var labelObj = document.getElementById( "labeladd" );
+	labelObj.innerHTML = "選択してください";
+
+	document.form1.userprefcd.value = "";
+	document.form1.useraddresscd1.value = "";
+	document.form1.useraddresscd2.value = "";
+	document.form1.userprefnm.value = "";
+	document.form1.usercitynm.value = "";
+	document.form1.useraddsubnm.value = "";
+}
+//郵便番号検索画面を表示
+function JumpMsZipCd(){
+	msgwin = window.open('','form1');
+	document.form1.target = 'form1';//target先を指定
+	document.form1.action = "http://sp.g.31sumai.com/sp/MsZipSearch";
+	document.form1.submit();
+	msgwin.focus();
+}
+//画面遷移（SSL対応）
+function JumpPage(mode){
+	document.form1.target = "_self";
+	document.form1.action = "http://sp.g.31sumai.com/sp/doc?" + mode;
+	document.form1.submit();
+}
+//-->
+</script>
+
+
+
+
+<script src="http://localhost/work/form_converter/converter.php?t=request" type="text/javascript" charset="UTF-8"></script>
+
+
+
+
+</head><body>
+
+<div id="wrap">
+<!-- ********** Begin of Header ********** -->
+	<header id="header" class="clearfix">
+
+		<p id="menuBtn"><img src="/cmn/images/btn_menu.png" width="27" alt="MENU"></p>
+
+		<h1 class="logo"><a href="/"><img src="/cmn/images/btn_logo.png" width="95" alt="三井の住まい 31sumai.com"></a></h1>
+	</header>
+<!-- ********** End of Header ********** -->
+
+<!-- ********** Begin of Contents ********** -->
+	<div id="contentsWrap">
+
+
+
+
+
+
+
+
+
+
+
+
+			<h2 class="buidingName">パークホームズ世田谷赤堤</h2>
+
+
+
+
+
+
+
+
+
+
+
+			<nav id="nav">
+				<ul class="clearfix">
+					<li style="width: 106px;"><a href="http://sp.g.31sumai.com/sp/bkd?id=X0930"><p>TOP</p></a></li>
+					<li style="width: 106px;"><a href="http://sp.g.31sumai.com/sp/bkd?id=X0930&amp;SK=MADORI"><p><img src="/cmn/images/icon_madori_off.png" width="40" alt=""></p><p>間取り一覧</p></a></li>
+
+
+					<li style="width: 106px;"><a href="http://sp.g.31sumai.com/sp/bkd?id=X0930&amp;SK=OUTLINE"><p><img src="/cmn/images/icon_about_off.png" width="30" alt=""></p><p>物件概要</p></a></li>
+				</ul>
+			</nav>
+
+
+
+
+
+
+
+		<article id="request">
+
+			<form name="form1" action="" method="post">
+			<!-- ********** Begin of Save Input ********** -->
+
+				<input type="hidden" name="id" value="X0930">
+
+				<input type="hidden" name="userConf" value="">
+				<input type="hidden" name="loginStatus" value="">
+				<input type="hidden" name="recoDataCnt" value="1">
+				<input type="hidden" name="docroot" value="">
+			<!-- ********** End of Save Input ********** -->
+
+				<section class="darkBlue clearfix">
+					<h2 class="whiteHead" style="height: 22px;"><span>資料請求</span></h2>
+				</section>
+				<section class="liteGrey">
+					<h3>お客様情報（お届け先）のご入力</h3>
+				</section>
+				<section class="noBorder">
+
+
+
+					<p>ご入力いただく前に、「個人情報のお取り扱いについて」、「資料請求に関するお願い」をご確認ください。</p>
+					<ul class="terms">
+						<li><a href="http://sp.g.31sumai.com/sp/doc?AC_KIYAKU&amp;id=X0930" target="_blank">個人情報のお取り扱いについて</a><span><img src="/cmn/images/icon_window.png" width="12" alt=""></span></li>
+						<li><a href="/terms/doc/" target="_blank">資料請求に関するお願い</a><span><img src="/cmn/images/icon_window.png" width="12" alt=""></span></li>
+					</ul>
+				</section>
+
+
+				<section class="login before">
+
+
+					<div class="before">
+					<p><img src="/cmn/images/btn_autoinput.gif" width="290" alt="三井ハウジングIDで自動入力"></p>
+					</div>
+
+					<div class="input">
+
+					<p class="text">三井ハウジングメイトIDとパスワードで<br>ご本人確認をしていただくとお客様情報のご入力を省略できます。</p>
+
+
+					<input type="text" name="loginID" value="" placeholder="三井ハウジングメイトID" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==); background-attachment: scroll; background-position: 100% 50%; background-repeat: no-repeat no-repeat;">
+
+
+					<input type="password" name="loginPass" placeholder="パスワード" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACIUlEQVQ4EX2TOYhTURSG87IMihDsjGghBhFBmHFDHLWwSqcikk4RRKJgk0KL7C8bMpWpZtIqNkEUl1ZCgs0wOo0SxiLMDApWlgOPrH7/5b2QkYwX7jvn/uc//zl3edZ4PPbNGvF4fC4ajR5VrNvt/mo0Gr1ZPOtfgWw2e9Lv9+chX7cs64CS4Oxg3o9GI7tUKv0Q5o1dAiTfCgQCLwnOkfQOu+oSLyJ2A783HA7vIPLGxX0TgVwud4HKn0nc7Pf7N6vV6oZHkkX8FPG3uMfgXC0Wi2vCg/poUKGGcagQI3k7k8mcp5slcGswGDwpl8tfwGJg3xB6Dvey8vz6oH4C3iXcFYjbwiDeo1KafafkC3NjK7iL5ESFGQEUF7Sg+ifZdDp9GnMF/KGmfBdT2HCwZ7TwtrBPC7rQaav6Iv48rqZwg+F+p8hOMBj0IbxfMdMBrW5pAVGV/ztINByENkU0t5BIJEKRSOQ3Aj+Z57iFs1R5NK3EQS6HQqF1zmQdzpFWq3W42WwOTAf1er1PF2USFlC+qxMvFAr3HcexWX+QX6lUvsKpkTyPSEXJkw6MQ4S38Ljdbi8rmM/nY+CvgNcQqdH6U/xrYK9t244jZv6ByUOSiDdIfgBZ12U6dHEHu9TpdIr8F0OP692CtzaW/a6y3y0Wx5kbFHvGuXzkgf0xhKnPzA4UTyaTB8Ph8AvcHi3fnsrZ7Wore02YViqVOrRXXPhfqP8j6MYlawoAAAAASUVORK5CYII=); background-attachment: scroll; background-position: 100% 50%; background-repeat: no-repeat no-repeat;">
+					<input type="image" src="/cmn/images/btn_login.gif" alt="ご本人確認" onclick="javascript:JumpPage('AC_INP2')">
+					<ul>
+
+						<li><a href="https://www.31sumai.com/form/Forget?mode=FORGET_ID_INPUT" target="_blank">IDを忘れた方</a><span><img src="/cmn/images/icon_window.png" width="12" alt=""></span></li>
+
+						<li><a href="https://www.31sumai.com/form/Forget?mode=FORGET_PS_INPUT" target="_blank">パスワードを忘れた方</a><span><img src="/cmn/images/icon_window.png" width="12" alt=""></span></li>
+					</ul>
+					</div>
+
+					<div class="after">
+					<p><img src="/cmn/images/mes_autoinput.png" width="300" alt=""></p>
+					</div>
+
+				</section>
+
+				<section class="black clearfix">
+					<h4 class="whiteHead" style="height: 22px;"><span>お名前</span></h4><span class="indispensable">必須</span>
+				</section>
+				<section>
+
+					<p class="attention">[全角]</p>
+					<input class="harf mr10" type="text" placeholder="姓：三井" name="username" value="">
+					<input class="harf" type="text" placeholder="名：太郎" name="userfname" value="">
+				</section>
+				<section class="black clearfix">
+					<h4 class="whiteHead" style="height: 22px;"><span>フリガナ</span></h4><span class="indispensable">必須</span>
+				</section>
+				<section>
+
+					<p class="attention">[全角カナ]</p>
+					<input class="harf mr10" type="text" placeholder="セイ：ミツイ" name="usernamekana" value="">
+					<input class="harf" type="text" placeholder="メイ：タロウ" name="userfnamekana" value="">
+				</section>
+				<section class="black clearfix">
+					<h4 class="whiteHead" style="height: 22px;"><span>郵便番号</span></h4><span class="indispensable">必須</span>
+				</section>
+				<section>
+
+					<p class="attention">[半角数字]</p>
+					<input class="full" type="number" maxlength="7" placeholder="例：1030022（ハイフンなし）" name="userzipcd" value="" onchange="javascript:ClearZipCd();">
+				</section>
+				<section class="black clearfix">
+					<h4 class="whiteHead" style="height: 22px;"><span>ご住所1（町丁目まで）</span></h4><span class="indispensable">必須</span>
+				</section>
+				<section class="addressinput clearfix">
+
+					<div id="adderror"></div>
+
+
+					<p id="labeladd">選択してください</p>
+
+					<p class="btn"><a href="javascript:void(0)" target="_blank" onclick="javascript:JumpMsZipCd();return false;">ご住所選択</a></p>
+
+					<input type="hidden" name="userprefcd" id="userprefcd" value="">
+					<input type="hidden" name="useraddresscd1" id="useraddresscd1" value="">
+					<input type="hidden" name="useraddresscd2" id="useraddresscd2" value="">
+					<input type="hidden" name="userprefnm" id="userprefnm" value="">
+					<input type="hidden" name="usercitynm" id="usercitynm" value="">
+					<input type="hidden" name="useraddsubnm" id="useraddsubnm" value="">
+				</section>
+				<section class="black clearfix">
+					<h4 class="whiteHead" style="height: 22px;"><span>ご住所2（番地以降）</span></h4><span class="indispensable">必須</span>
+				</section>
+				<section>
+
+					<p class="attention">[全角・半角]</p>
+					<input class="full" type="text" placeholder="例：3番地 パークマンション 201号室" name="useraddressstr" value="">
+				</section>
+				<section class="black clearfix">
+					<h4 class="whiteHead" style="height: 22px;"><span>電話番号</span></h4><span class="indispensable">必須</span>
+				</section>
+				<section>
+
+					<p class="attention">[半角数字]</p>
+					<input class="full" type="tel" maxlength="13" placeholder="例：09012345678（ハイフンなし）" name="usertel" value="">
+				</section>
+				<section class="black clearfix">
+					<h4 class="whiteHead" style="height: 22px;"><span>メールアドレス</span></h4><span class="indispensable">必須</span>
+				</section>
+				<section>
+
+					<p class="attention">[半角英数字]</p>
+					<input class="full" type="email" placeholder="例：xxxxx@31sumai.co.jp" name="useremail" value="">
+				</section>
+				<section class="black clearfix">
+					<h4 class="whiteHead" style="height: 22px;"><span>生年月日</span></h4>
+				</section>
+				<section>
+
+					<p class="attention">[半角数字]</p>
+					<input class="short" type="number" maxlength="4" placeholder="西暦" name="userbirthyear" value=""><span class="shortTxt">年</span>
+					<input class="short" type="number" maxlength="2" name="userbirthmonth" value=""><span class="shortTxt">月</span>
+					<input class="short" type="number" maxlength="2" name="userbirthday" value=""><span class="shortTxt">日</span>
+				</section>
+				<section class="black clearfix">
+					<h4 class="whiteHead" style="height: 22px;"><span>職業</span></h4>
+				</section>
+				<section>
+
+					<select class="full" name="useroccupation">
+						<option value="00">お選びください</option>
+<option value="01">会社員</option>
+<option value="02">会社役員</option>
+<option value="03">公務員</option>
+<option value="05">経営者</option>
+<option value="06">商工自営</option>
+<option value="07">医師</option>
+<option value="13">弁護士</option>
+<option value="14">会計士・税理士</option>
+<option value="15">弁理士</option>
+<option value="09">自由業</option>
+<option value="10">教職</option>
+<option value="11">無職</option>
+<option value="12">その他</option>
+<option value="16">団体職員</option>
+<option value="17">専門職（未分類）</option>
+
+					</select>
+				</section>
+
+
+					<input type="hidden" name="bkCode_0" value="X0930">
+					<input type="hidden" name="uidKind_0" value="3">
+					<input type="hidden" name="BukkenName_0" value="パークホームズ世田谷赤堤">
+					<input type="hidden" name="shubetsu_0" value="">
+					<input type="hidden" name="chkStatus_0" value="1">
+
+
+				<section>
+					<input type="image" src="/cmn/images/bnt_go_confirm.gif" alt="「個人情報のお取り扱いについて」に同意して確認画面に進む" onclick="javascript:JumpPage('AC_CONF')">
+				</section>
+			</form>
+
+				<section id="pageTop">
+					<p><a href="#"><img src="/cmn/images/btn_gotop.gif" width="103" alt=""></a></p>
+				</section>
+
+				<section id="bread">
+					<ul>
+						<li><a href="/">三井の住まい</a></li>
+
+
+
+						<li><a href="/sp/bkd?id=X0930">&gt;パークホームズ世田谷赤堤</a></li>
+
+
+						<li>&gt;資料請求</li>
+					</ul>
+				</section>
+		</article>
+<!-- ********** End of Contents ********** -->
+
+<!-- ********** Begin of Footer ********** -->
+
+
+
+			<footer>
+				<p id="logo"><a href="http://www.mfr.co.jp/" target="_blank"><img src="/cmn/images/com_logo.gif" width="130" alt="三井不動産レジデンシャル"></a></p>
+				<p id="copyright">(c) Mitsui Fudosan Residential Co.,Ltd.</p>
+				<p id="copy">三井不動産レジデンシャルは、新築マンション・分譲マンション・新築一戸建て・分譲一戸建てを提供しています。
+			</p>
+			</footer>
+
+
+		<!-- slideWrap -->
+	</div><!-- contentsWrap -->
+<!-- ********** End of Footer ********** -->
+
+
+
+	<!-- 物件からの資料請求時 -->
+
+
+
+
+
+
+
+
+
+
+
+
+	<div id="sideMenu">
+		<nav id="sideNav">
+			<ul>
+				<li><a class="icon_backArrow" href="/">三井の住まいTOP</a></li>
+
+				<li class="white"><a class="icon_house" href="http://sp.g.31sumai.com/sp/bkd?id=X0930"><span class="name" style="height: 21px; margin-top: -10.5px;">パークホームズ世田谷赤堤</span><span class="arrow"><img src="/cmn/images/slide_arrow_b.png" width="9" alt=""></span></a></li>
+
+				<li><a class="icon_madori" href="http://sp.g.31sumai.com/sp/bkd?id=X0930&amp;SK=MADORI">間取り一覧<span class="arrow"><img src="/cmn/images/slide_arrow_w.png" width="9" alt=""></span></a></li>
+
+				<li><a class="icon_about" href="http://sp.g.31sumai.com/sp/bkd?id=X0930&amp;SK=OUTLINE">物件概要<span class="arrow"><img src="/cmn/images/slide_arrow_w.png" width="9" alt=""></span></a></li>
+				<li class="red"><a class="icon_data" href="http://sp.g.31sumai.com/sp/doc?id=X0930">資料請求する<span class="arrow"><img src="/cmn/images/slide_arrow_w.png" width="9" alt=""></span></a></li>
+				<li><a class="icon_send" href="javascript:void(0);" data-id="X0930" data-name="パークホームズ世田谷赤堤" onclick="email();common.mailTo($(this).data('id'),$(this).data('name'));return false;">この物件のURLをメールで送る<span class="arrow"><img src="/cmn/images/slide_arrow_w.png" width="9" alt=""></span></a></li>
+
+				<li class="white"><span class="icon_triangle noLink">物件を探す</span></li>
+				<li style="display: none;"><a class="icon_recent" href="/sp/rec"></a></li>
+				<li style="display: none;"><a class="icon_heart" href="/sp/fav"></a></li>
+				<li><a class="icon_japan" href="/sp/top?areaSearch">エリアから探す<span class="arrow"><img src="/cmn/images/slide_arrow_w.png" width="9" alt=""></span></a></li>
+				<li><a class="icon_train" href="/sp/top?trainSearch">沿線から探す（首都圏）<span class="arrow"><img src="/cmn/images/slide_arrow_w.png" width="9" alt=""></span></a></li>
+				<li><span class="icon_star noLink">特色から探す</span></li>
+				<li class="grey"><a class="icon_new sub" href="/sp/special?id=NEW">新着物件<span class="arrow"><img src="/cmn/images/slide_arrow_w.png" width="9" alt=""></span></a></li>
+				<li class="grey"><a class="icon_building sub" href="/sp/special?id=7">大規模・タワー<span class="arrow"><img src="/cmn/images/slide_arrow_w.png" width="9" alt=""></span></a></li>
+				<li class="grey"><a class="icon_single sub" href="/sp/special?id=6">シングル&amp;DINKS<span class="arrow"><img src="/cmn/images/slide_arrow_w.png" width="9" alt=""></span></a></li>
+			</ul>
+
+
+			<div class="search">
+				<h5 class="searchIndex"><span><img src="/cmn/images/icon_lens.png" width="15" alt=""></span>物件名・地名・沿線名で探す</h5>
+					<form method="POST" action="/sp/kwd">
+						<input type="text" placeholder="キーワード入力" name="word">
+						<input type="image" src="/cmn/images/slide_btn_search.gif" alt="検索">
+						<input type="hidden" name="baseuidcd" value="">
+					</form>
+			</div>
+		</nav>
+	</div><!-- sideMenu -->
+
+
+
+
+
+	<div id="modal" style="height: 568px;">
+		<div id="reflectWindow">
+			<p class="text">ご住所に反映しました</p>
+			<p class="btn">OK</p>
+		</div>
+	</div><!-- modal -->
+
+</div>
+
+
+<!-- SiteCatalyst code Copyright 1996-2010 Adobe, Inc. All Rights Reserved More info available at http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript" src="/js/s_code.js" charset="Shift-JIS"></script>
+<script language="JavaScript" type="text/javascript"><!--
+/* You may give each page an identifying name, server, and channel on the next lines. */
+
+
+/* 初期表示 */
+s.channel="31SP"
+s.pageName="31SP｜資料請求（入力）"
+s.prop5="31SP｜資料請求"
+s.prop6="31SP｜資料請求（入力）"
+s.prop7="31SP｜資料請求（入力）"
+s.prop8="31SP｜資料請求（入力）"
+s.products=";X0930"
+s.events="scCheckout"
+
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)
+//--></script>
+<!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst-->
+
+
+
+
+<!-- WebAntenna -->
+<script type="text/javascript" src="https://tr.webantenna.info/js/webantenna.js"></script>
+<script type="text/javascript">
+if ( typeof( webantenna ) == 'function' ) {
+_wa.account = 'WArn7w-1';
+webantenna();
+}
+</script>
+<noscript>
+&lt;img width="1" height="1" alt="" src="https://tr.webantenna.info/_webantenna.png?ga=WArn7w-1&amp;amp;jse=0"&gt;
+</noscript>
+<!-- end WebAntenna -->
+
+
+
+
+
+<!-- ad_start -->
+<script language="JavaScript" type="text/javascript">
+<!--
+var yj_sid="2080170716";
+var random=new Date();
+var yj_ads="http://btcs.yahoo.co.jp/";
+var yj_src=yj_ads+'b?f='+yj_sid+'&rnd='+random.getTime();
+document.write('<sc'+'ript language="JavaScript" type="text/javascript" src="'+yj_src+'">');
+document.write('</sc'+'ript>');
+//-->
+</script><script language="JavaScript" type="text/javascript" src="http://btcs.yahoo.co.jp/b?f=2080170716&amp;rnd=1398303616767"></script><!-- SpaceID=2080170716 loc=Z noad-spid -->
+<!-- ad_end -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="showtitlewrapper" class="bottom_right"><p><span id="showtitle-title" title="Length: 26 chars">資料請求 | 三井の住まい:三井不動産レジデンシャル</span> <span class="link" id="showtitlemove" title="Move this bar"><i class="icon-hand-down"></i><i class="icon-hand-up"></i><i class="icon-hand-right"></i><i class="icon-hand-left"></i></span> <span id="showtitleremovelink" class="link" title="Hide this bar"><i class="icon-eye-open"></i><i class="icon-eye-close"></i></span></p></div><script id="hiddenlpsubmitdiv" style="display: none;"></script><script>try{for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); if (d) {for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ d.innerText=i; } } d.dispatchEvent(customEvent); }form.lpsubmitorig2(); } } }}catch(e){}</script></body></html>

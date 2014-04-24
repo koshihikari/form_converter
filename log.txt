@@ -1,0 +1,8 @@
+
+$index = 0
+$type = request
+$ref = http://localhost/work/form_converter/mitsui2/request0930.html
+$patterns[$i][basePath] = http://localhost/work/form_converter/mitsui2/
+config = http://localhost/work/form_converter/mitsui2/config.php
+file_exists = 
+include_once = 
