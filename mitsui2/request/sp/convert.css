@@ -1,0 +1,94 @@
+﻿@charset "utf-8";
+
+/*body#bodyID input,
+body#bodyID select{
+	background: white;
+}*/
+body#bodyID form#formID .MouseoverNow{
+	background: #cedeef;
+	/*background: yellow;*/
+}
+body#bodyID form#formID .blank{
+	/*background: green;*/
+	background: #D9E996;
+}
+
+
+body#bodyID form#formID label.blank{
+	/*background: green;*/
+	background: #D9E996 !important;
+}
+
+
+body#bodyID form#formID .error{
+	/*background: green;*/
+	background: blue;
+}
+body#bodyID form#formID .NT_appeal{
+	/*background: green;*/
+	color:orange;
+}
+body#bodyID form#formID div.blank label{
+	background: #D9E996;
+	/*background: #ffdddd;*/
+}
+body#bodyID form#formID #B1{
+	display: none;
+}
+body#bodyID form#formID input:focus{
+	background: #ffffe5;
+}
+body#bodyID form#formID span.blankMS{
+	font-weight: bold;
+	color: #9EB81A;
+	/*color: #ed5600;*/
+}
+/*body#bodyID form#formID #boxID{
+	width: 60px;
+	height: 20px;
+}
+*/
+
+
+/*1ページ目――――――――――――――――――――――――――――――――――――――――――――――――――*/
+body#bodyID.NT_1stPage form#formID #divID #NT_dlforMS h3.title_bar_grey
+{
+	margin-top: 8px;
+}
+body#bodyID.NT_1stPage form#formID #divID #NT_dlforMS dd.NT_DD_4 span,
+body#bodyID.NT_1stPage form#formID #divID #NT_dlforMS dd.NT_DD_5 span
+{
+	margin-left: 3px;
+}
+
+
+
+/*2ページ目エラーMS――――――――――――――――――――――――――――――――――――――――――――――――――*/
+body#bodyID.NT_2ndPage form#formID #divID #NT_dlforMS .NT_divforMS
+{
+	margin: -15px 0 0 0;
+}
+body#bodyID.NT_2ndPage form#formID #divID #NT_dlforMS dd.NT_DD_MS_1 div,
+body#bodyID.NT_2ndPage form#formID #divID #NT_dlforMS dd.NT_DD_MS_1 input,
+body#bodyID.NT_2ndPage form#formID #divID #NT_dlforMS dd.NT_DD_MS_2 div,
+body#bodyID.NT_2ndPage form#formID #divID #NT_dlforMS dd.NT_DD_MS_2 input,
+{
+	margin-left: 10px !important;
+}
+body#bodyID.NT_2ndPage form#formID #divID #NT_dlforMS dd.NT_DD_MS_0 .NT_divforMS
+{
+	display: inline-table;
+	width: 80px;
+	text-align: center;
+	margin: 5px 11px 0 0 !important;
+}
+/*body#bodyID form#formID>div.regist>div.NT_V_CheckboxTd.blank
+{
+	border-radius: 15px/15px;
+}*/
+
+/*三井仕様・存在しない日*/
+body#bodyID #errCorrectDate{
+	font-weight: bold;
+	color: #9EB81A;
+}
