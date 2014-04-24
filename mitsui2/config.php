@@ -41,6 +41,9 @@ function getFilesOfRequestForm($baseUrl, $basePath, $refrer, $ua, $isLocal) {
 
 			,$baseUrl . 'helper/Namespace.js'
 			,$baseUrl . 'plugin/kanaTextExtensionForSP.js'
+			,$baseUrl . 'request/sp/data/DataManager.js'
+			,$baseUrl . 'request/sp/view/ElementManager.js'
+			,$baseUrl . 'request/sp/view/ValidationManager.js'
 			,$baseUrl . 'request/sp/index.js'
 
 
