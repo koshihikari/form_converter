@@ -12,9 +12,9 @@ $type = $_GET['t'];
 // ---------- add ueda 2014-04-24 bigin ---------- //
 $patterns = array(
 	array(
-		'url'			=> str_replace("/", "\/", "http://localhost/work/form_converter/mitsui2/*"),
-		'baseUrl'		=> 'http://localhost/work/form_converter/mitsui2/',
-		'basePath'		=> 'mitsui2/'
+		'url'			=> str_replace("/", "\/", "http://localhost/work/form_converter/mitsui/*"),
+		'baseUrl'		=> 'http://localhost/work/form_converter/mitsui/',
+		'basePath'		=> 'mitsui/'
 	)
 );
 $index = -1;
