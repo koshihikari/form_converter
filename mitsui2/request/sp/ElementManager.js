@@ -95,23 +95,43 @@ jQuery(document).ready(function($){
 					,errMsgPrefix		: ''
 					,scrollToErr		: false
 				});
-			thisObj._formElem.find('input[type="image"]')
-				.on('click', function(event) {
-					event.preventDefault();
-					event.stopPropagation();
-					var count = thisObj._formElem.find('.err').not('input[name="loginID"], input[name="loginPass"], input[type="hidden"], input[type="image"], input[type="checkbox"]').length;
-					console.log('count = ' + count);
+			thisObj._formElem
+				.find('input[type="image"]')
+					.on('click', function(event) {
+						event.preventDefault();
+						event.stopPropagation();
+						var count = thisObj._formElem.find('.err').not('input[name="loginID"], input[name="loginPass"], input[type="hidden"], input[type="image"], input[type="checkbox"]').length;
+						console.log('count = ' + count);
 
-					if (count === 0) {
-						javascript:JumpPage('AC_CONF')
-					} else {
-						var errorElem = thisObj._formElem.find('.err').not('input[name="loginID"], input[name="loginPass"], input[type="hidden"], input[type="image"], input[type="checkbox"]').eq(0);
-						var targetY = errorElem.offset().top - 100;
-						errorElem.blur();
-						$('body,html').animate({scrollTop: targetY}, 200);
-					}
-					return false;
-				});
+						if (count === 0) {
+							javascript:JumpPage('AC_CONF')
+						} else {
+							var errorElem = thisObj._formElem.find('.err').not('input[name="loginID"], input[name="loginPass"], input[type="hidden"], input[type="image"], input[type="checkbox"]').eq(0);
+							var targetY = errorElem.offset().top - 100;
+							errorElem.blur();
+							$('body,html').animate({scrollTop: targetY}, 200);
+						}
+						return false;
+					})
+				.end()
+				.find('input[name="loginID"], input[name="loginPass"]')
+					.on('blur', function(event) {
+						var elem = $(this);
+						if (elem.val() !== '') {
+							elem.removeClass('err blank');
+						} else {
+							elem.addClass('err blank');
+						}
+					})
+				.end()
+				.find('input, select')
+					.on('focus', function(event) {
+						$(this).addClass('onFocus');
+					})
+					// .not('input[name="loginID"], input[name="loginPass"]')
+						.on('blur', function(event) {
+							$(this).removeClass('onFocus');
+						})
 			thisObj._timerId = setInterval(thisObj.checkAddress, 1000);
 		}
 	}

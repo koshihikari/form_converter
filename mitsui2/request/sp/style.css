@@ -20,3 +20,6 @@ input.error {
 form .err {
 	background: #D9E996;
 }
+form .onFocus {
+	background-color: #fff;
+}
