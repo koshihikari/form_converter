@@ -1,0 +1,887 @@
+﻿@charset "utf-8";
+
+/*html.ie body.pc {
+	background: #b6a9e2 ;
+}
+html.elseBL body.pc {
+	background: black ;
+}
+*/
+
+
+
+
+/*IE*/
+html.ie body.pc .formError .formErrorArrow .line10,
+html.ie body.pc .formError .formErrorArrow .line9,
+html.ie body.pc .formError .formErrorArrow .line8,
+html.ie body.pc .formError .formErrorArrow .line7,
+html.ie body.pc .formError .formErrorArrow .line6,
+html.ie body.pc .formError .formErrorArrow .line5,
+html.ie body.pc .formError .formErrorArrow .line4,
+html.ie body.pc .formError .formErrorArrow .line3,
+html.ie body.pc .formError .formErrorArrow .line2,
+html.ie body.pc .formError .formErrorArrow .line1{
+	/*background: #187fc6;*/
+	background: #499E03;
+}
+
+
+html.ie body.pc .formError .formErrorArrow .line10 {
+	width: 19px;
+}
+html.ie body.pc .formError .formErrorArrow .line9 {
+	width: 17px;
+}
+html.ie body.pc .formError .formErrorArrow .line8 {
+	width: 15px;
+}
+html.ie body.pc .formError .formErrorArrow .line7 {
+	width: 13px;
+}
+html.ie body.pc .formError .formErrorArrow .line6 {
+	width: 11px;
+}
+html.ie body.pc .formError .formErrorArrow .line5 {
+	width: 9px;
+}
+html.ie body.pc .formError .formErrorArrow .line4 {
+	width: 7px;
+}
+html.ie body.pc .formError .formErrorArrow .line3 {
+	width: 5px;
+}
+html.ie body.pc .formError .formErrorArrow .line2 {
+	width: 3px;
+}
+html.ie body.pc .formError .formErrorArrow .line1{
+	width: 1px;
+}
+
+html.ie body.pc div.formErrorMsg.formErrorContent{
+	/*background: #187fc6;*/
+	background: #499E03;
+	width:auto;
+	font-size: 0.7em !important;
+	font-size: 0.7rem !important;
+	padding: 3px 3px 2px 3px;
+}
+html.ie body.pc .formErrorClose{
+/*	background: #187fc6 !important;
+	border: #187fc6 !important; */
+	background: #499E03 !important;
+	border: #499E03 !important;
+	display: none !important;
+}
+/*html.ie body.pc .blank {
+	background: #ffdddd !important;
+}*/
+html.ie body.pc .focus {
+	background: #ffffe5 !important;
+}
+html.ie body.pc .tdfocusmen {
+	background: #CEDEEF !important;
+}
+html.ie body.pc .tdfocuswomen {
+}
+html.ie body.pc .tdfocus {
+	background: #CEDEEF !important;
+}
+html.ie body.pc iframe[src='Inc/kojin_ichiran.html']{
+}
+
+html.ie body.pc span.floatspan{
+	text-align: center;
+	display:block;
+	width: 100%;
+	color: white;
+}
+html.ie body.pc span.floatspan:hover{
+	background-color: red;
+	color: white;
+}
+html.ie body.pc li.countli{
+	height: 55px;
+	width: 113px;
+}
+html.ie body.pc span.countspantext0{
+	text-align: left;
+	display:block;
+	color: red;
+	font-weight: bold;
+}
+html.ie body.pc span.countspantext1{
+	text-align: right;
+	display:block;
+}
+html.ie body.pc span.countspantext2{
+	text-align: right;
+	display:block;
+	padding: 0 0 5px 0;
+}
+html.ie body.pc span.countspantext21,
+html.ie body.pc span.countspantext22{
+}
+html.ie body.pc span.countspanNum{
+	color: red;
+	margin: 0 8px 0 8px;
+	font-size: 20px;
+	font-weight: bold;
+}
+html.ie body.pc span.countspanOk{
+	text-align: center;
+	display: block !important;
+	color: rgb(222, 222, 222);
+	margin: 0 8px 0 8px;
+	font-size: 15px;
+	font-weight: bold;
+	/*padding-bottom: 15px;*/
+	/*top: 50% !important;*/
+	/*margin-top: -1.0em;*/
+}
+html.ie body.pc #float.countOk{
+	background: rgb(38, 71, 115);
+	cursor: pointer;
+}
+html.ie body.pc form > table:nth-of-type(9) .labeltd{
+	width: 100px;
+	padding-left: 10px;
+}
+html.ie body.pc form > table:nth-last-of-type(2) .labeltd{
+	width: 90px;
+	padding-left: 10px;
+}
+html.ie body.pc .privacyTd{
+	background:transparent;
+}
+html.ie body.pc .tdfocusParentLabel{
+}
+html.ie body.pc .tdfocuslabel{
+	color:#0066ff;
+}
+
+html.ie body.pc #float {
+	/*position: absolute;*/
+	position:fixed;
+	bottom: 5px;
+	right: 15px;
+	/*
+	height: 75px;
+	width: 140px;
+	*/
+	padding:0 10px 10px;
+	line-height: 1.0rem;
+	/*background:rgb(0,43,163);*//*IE向け*/
+	background:rgb(136, 155, 1);/*IE向け*/
+
+	color:white;
+	text-align : center ;
+	z-index: 100;
+	/*border-radius: 5px 5px 5px 5px;*/
+	/*margin: 0 1% 0 80%;*/
+
+	/*top: 20px;*/
+
+
+}
+html.ie body.pc li.countOkli{
+	list-style-type: none;
+	top: 18% !important;
+	left: 0% !important;
+	margin: 5px !important;
+	padding: 0 !important;
+	/*margin-top: -3.0rem !important;*/
+}
+html.ie body.pc ul.floatul{
+	display: inline-block;
+	text-align : center ;
+	list-style-type: none;
+	/*width:100%;*/
+	/*margin: 0 auto;  */
+	margin-left:0;
+	margin-right:0;
+	padding: 0;
+	/*bottom: 0;*/
+	top: 50% !important;
+	margin-top: 1.0em;
+	/*position: relative;*/
+	/*vertical-align:middle;*/
+}
+
+html.ie body.pc li.floatli{
+	float: left;
+	width: 4%;
+	margin: 0;
+	padding: 0;
+	/*text-align: center;*/
+	/*bottom: 0;*/
+	padding: 10px 0;
+}
+html.ie body.pc input[type="text"],
+html.ie body.pc select{
+	background: transparent;
+}
+html.ie body.pc{
+	width: 100%;
+	height: 100%;
+	/*position: relative;*/
+}
+/**{
+	margin: 0 !important;
+}
+*/
+
+
+
+
+
+
+
+
+
+/*Else Blowser*/
+html.elseBL body.pc li.countOkli{
+	list-style-type: none;
+}
+
+html.elseBL body.pc .formError .formErrorArrow .line10,
+html.elseBL body.pc .formError .formErrorArrow .line9,
+html.elseBL body.pc .formError .formErrorArrow .line8,
+html.elseBL body.pc .formError .formErrorArrow .line7,
+html.elseBL body.pc .formError .formErrorArrow .line6,
+html.elseBL body.pc .formError .formErrorArrow .line5,
+html.elseBL body.pc .formError .formErrorArrow .line4,
+html.elseBL body.pc .formError .formErrorArrow .line3,
+html.elseBL body.pc .formError .formErrorArrow .line2,
+html.elseBL body.pc .formError .formErrorArrow .line1{
+	/*background: #187fc6;*/
+	background: #499E03;
+}
+
+
+html.elseBL body.pc .formError .formErrorArrow .line10 {
+	width: 19px;
+}
+html.elseBL body.pc .formError .formErrorArrow .line9 {
+	width: 17px;
+}
+html.elseBL body.pc .formError .formErrorArrow .line8 {
+	width: 15px;
+}
+html.elseBL body.pc .formError .formErrorArrow .line7 {
+	width: 13px;
+}
+html.elseBL body.pc .formError .formErrorArrow .line6 {
+	width: 11px;
+}
+html.elseBL body.pc .formError .formErrorArrow .line5 {
+	width: 9px;
+}
+html.elseBL body.pc .formError .formErrorArrow .line4 {
+	width: 7px;
+}
+html.elseBL body.pc .formError .formErrorArrow .line3 {
+	width: 5px;
+}
+html.elseBL body.pc .formError .formErrorArrow .line2 {
+	width: 3px;
+}
+html.elseBL body.pc .formError .formErrorArrow .line1{
+	width: 1px;
+}
+
+html.elseBL body.pc div.formErrorMsg.formErrorContent{
+	/*background: #187fc6;*/
+	background: #499E03;
+	width:auto;
+	font-size: 0.7em !important;
+	font-size: 0.7rem !important;
+	padding: 3px 3px 2px 3px;
+	/*display: inline !important;*/
+}
+html.elseBL body.pc .formErrorClose{
+	/*background: #187fc6 !important;*/
+	/*border: #187fc6 !important;*/
+	background: #499E03 !important;
+	border: #499E03 !important;
+	display: none !important;
+}
+/*html.elseBL body.pc .blank {
+	background: #ffdddd !important;
+}*/
+html.elseBL body.pc .focus {
+	background: #ffffe5 !important;
+}
+html.elseBL body.pc .tdfocusmen {
+	background: #CEDEEF !important;
+}
+html.elseBL body.pc .tdfocuswomen {
+}
+html.elseBL body.pc .tdfocus {
+	background: #CEDEEF !important;
+}
+html.elseBL body.pc iframe[src='Inc/kojin_ichiran.html']{
+}
+html.elseBL body.pc ul.floatul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+}
+
+html.elseBL body.pc li.floatli{
+	float: left;
+	width: 4%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	bottom: 0;
+	padding: 10px 0;
+}
+
+html.elseBL body.pc span.floatspan{
+	text-align: center;
+	display:block;
+	width: 100%;
+	color: white;
+}
+html.elseBL body.pc span.floatspan:hover{
+	background-color: red;
+	color: white;
+}
+html.elseBL body.pc li.countli{
+	height: 55px;
+	width: 113px;
+}
+html.elseBL body.pc span.countspantext0{
+	text-align: left;
+	color: red;
+	display:block;
+	font-weight: bold;
+}
+html.elseBL body.pc span.countspantext1{
+	text-align: right;
+	display:block;
+}
+html.elseBL body.pc span.countspantext2{
+	text-align: right;
+	display:block;
+	padding: 0 0 5px 0;
+}
+html.elseBL body.pc span.countspantext21,
+html.elseBL body.pc span.countspantext22{
+}
+html.elseBL body.pc span.countspanNum{
+	color: red;
+	margin: 0 8px 0 8px;
+	font-size: 20px;
+	font-weight: bold;
+}
+html.elseBL body.pc span.countspanOk{
+	text-align: center;
+	display: block;
+	color: rgb(222, 222, 222);
+	margin: 0 8px 0 8px;
+	font-size: 15px;
+	font-weight: bold;
+}
+html.elseBL body.pc #float.countOk{
+	background: rgb(38, 71, 115);
+	cursor: pointer;
+}
+html.elseBL body.pc form > table:nth-of-type(9) .labeltd{
+	width: 100px;
+	padding-left: 10px;
+}
+html.elseBL body.pc form > table:nth-last-of-type(2) .labeltd{
+	width: 90px;
+	padding-left: 10px;
+}
+html.elseBL body.pc .privacyTd{
+	background:transparent;
+}
+html.elseBL body.pc .tdfocusParentLabel{
+}
+html.elseBL body.pc .tdfocuslabel{
+	color:#0066ff;
+	/*font-weight: bold;*/
+	/*margin-right: 15px;*/
+	/*display: inline-block;*/
+	/*font-size: 120%;*/
+	/*background:blue;*/
+	/*-webkit-animation: anime 0.1s ease 0 infinite alternate;*/
+
+/*	-webkit-animation-name: anime1;
+	-webkit-animation-duration: 0.1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;*/
+}
+html.elseBL body.pc #float {
+	position: fixed;
+
+	bottom: 5px;
+	right: 15px;
+	/*
+	height: 55px;
+	width: 113px;
+	*/
+	padding:10px;
+
+	/*background:rgba(0,43,163, 0.8);*/
+	background:rgba(136, 155, 1, 0.9);
+			/*その他向け*/
+
+	color:white;
+
+	border-radius: 5px 5px 5px 5px;
+	/*margin: 0 1% 0 80%;*/
+	z-index: 100;
+}
+html.elseBL body.pc #col_19{
+	width: 53px;
+}
+html.elseBL body.pc #col_19_2,
+html.elseBL body.pc #col_13_2,
+html.elseBL body.pc #col_13_3,
+html.elseBL body.pc #col_16{
+	width: 60px;
+}
+html.elseBL body.pc #col_17,
+html.elseBL body.pc #col_13{
+	width: 46px;
+}
+html.elseBL body.pc #col_16_2,
+html.elseBL body.pc #col_16_3{
+	width: 39px;
+}
+@-webkit-keyframes anime1 {
+	0% {width: 50px; height: 50px; background-color: aqua;}
+	100% {width: 200px; height: 50px; background-color: blue;}
+}
+@-webkit-keyframes anime {
+	0% {	opacity:1;	}
+	100% {	opacity:0;	}
+}
+
+@tmp(val1, vql2, val3) {
+	-webkit-animation-name: val1;
+	-webkit-animation-duration: vql2;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;
+
+	animation-name: val1;
+	animation-duration: vql2;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;
+}
+body#bodyID form#formID .MouseoverNow{
+	background: #cedeef;
+	/*background: yellow;*/
+}
+body#bodyID form#formID .blank {
+	background: #D9E996;
+	/*background: #ffdddd;*/
+}
+body#bodyID form#formID .CursorFocusNow{
+	background: #ffffe5;
+	/*background: red;*/
+}
+body#bodyID form#formID .MouseoverRadioNow{
+	color: #0066ff;
+	/*color: red;*/
+}
+/*住所検索body#bodyID form#formID #B1{
+	display: none;
+}
+*/
+
+
+
+
+
+
+
+
+/*IE9*/
+html.ie9 body.pc li.countOkli{
+	list-style-type: none;
+}
+
+html.ie9 body.pc .formError .formErrorArrow .line10,
+html.ie9 body.pc .formError .formErrorArrow .line9,
+html.ie9 body.pc .formError .formErrorArrow .line8,
+html.ie9 body.pc .formError .formErrorArrow .line7,
+html.ie9 body.pc .formError .formErrorArrow .line6,
+html.ie9 body.pc .formError .formErrorArrow .line5,
+html.ie9 body.pc .formError .formErrorArrow .line4,
+html.ie9 body.pc .formError .formErrorArrow .line3,
+html.ie9 body.pc .formError .formErrorArrow .line2,
+html.ie9 body.pc .formError .formErrorArrow .line1{
+	/*background: #187fc6;*/
+	background: #499E03;
+}
+
+
+html.ie9 body.pc .formError .formErrorArrow .line10 {
+	width: 19px;
+}
+html.ie9 body.pc .formError .formErrorArrow .line9 {
+	width: 17px;
+}
+html.ie9 body.pc .formError .formErrorArrow .line8 {
+	width: 15px;
+}
+html.ie9 body.pc .formError .formErrorArrow .line7 {
+	width: 13px;
+}
+html.ie9 body.pc .formError .formErrorArrow .line6 {
+	width: 11px;
+}
+html.ie9 body.pc .formError .formErrorArrow .line5 {
+	width: 9px;
+}
+html.ie9 body.pc .formError .formErrorArrow .line4 {
+	width: 7px;
+}
+html.ie9 body.pc .formError .formErrorArrow .line3 {
+	width: 5px;
+}
+html.ie9 body.pc .formError .formErrorArrow .line2 {
+	width: 3px;
+}
+html.ie9 body.pc .formError .formErrorArrow .line1{
+	width: 1px;
+}
+
+html.ie9 body.pc div.formErrorMsg.formErrorContent{
+	/*background: #187fc6;*/
+	background: #499E03;
+	width:auto;
+	font-size: 0.7em !important;
+	font-size: 0.7rem !important;
+	padding: 3px 3px 2px 3px;
+	/*display: inline !important;*/
+}
+html.ie9 body.pc .formErrorClose{
+	/*background: #187fc6 !important;*/
+	/*border: #187fc6 !important;*/
+	background: #499E03 !important;
+	border: #499E03 !important;
+	display: none !important;
+}
+/*html.ie9 body.pc .blank {
+	background: #ffdddd !important;
+}*/
+html.ie9 body.pc .focus {
+	background: #ffffe5 !important;
+}
+html.ie9 body.pc .tdfocusmen {
+	background: #CEDEEF !important;
+}
+html.ie9 body.pc .tdfocuswomen {
+}
+html.ie9 body.pc .tdfocus {
+	background: #CEDEEF !important;
+}
+html.ie9 body.pc iframe[src='Inc/kojin_ichiran.html']{
+}
+html.ie9 body.pc ul.floatul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+}
+
+html.ie9 body.pc li.floatli{
+	float: left;
+	width: 4%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	bottom: 0;
+	padding: 10px 0;
+}
+
+html.ie9 body.pc span.floatspan{
+	text-align: center;
+	display:block;
+	width: 100%;
+	color: white;
+}
+html.ie9 body.pc span.floatspan:hover{
+	background-color: red;
+	color: white;
+}
+html.ie9 body.pc li.countli{
+	height: 55px;
+	width: 113px;
+}
+html.ie9 body.pc span.countspantext0{
+	color: red;
+	text-align: left;
+	display:block;
+	font-weight: bold;
+}
+html.ie9 body.pc span.countspantext1{
+	text-align: right;
+	display:block;
+}
+html.ie9 body.pc span.countspantext2{
+	text-align: right;
+	display:block;
+	padding: 0 0 5px 0;
+}
+html.ie9 body.pc span.countspantext21,
+html.ie9 body.pc span.countspantext22{
+}
+html.ie9 body.pc span.countspanNum{
+	color: red;
+	margin: 0 8px 0 8px;
+	font-size: 20px;
+	font-weight: bold;
+}
+html.ie9 body.pc span.countspanOk{
+	text-align: center;
+	display: block;
+	color: rgb(222, 222, 222);
+	margin: 0 8px 0 8px;
+	font-size: 15px;
+	font-weight: bold;
+}
+html.ie9 body.pc #float.countOk{
+	background: rgb(38, 71, 115);
+	cursor: pointer;
+}
+html.ie9 body.pc form > table:nth-of-type(9) .labeltd{
+	width: 100px;
+	padding-left: 10px;
+}
+html.ie9 body.pc form > table:nth-last-of-type(2) .labeltd{
+	width: 90px;
+	padding-left: 10px;
+}
+html.ie9 body.pc .privacyTd{
+	background:transparent;
+}
+html.ie9 body.pc .tdfocusParentLabel{
+}
+html.ie9 body.pc .tdfocuslabel{
+	color:#0066ff;
+	/*font-weight: bold;*/
+	/*margin-right: 15px;*/
+	/*display: inline-block;*/
+	/*font-size: 120%;*/
+	/*background:blue;*/
+	/*-webkit-animation: anime 0.1s ease 0 infinite alternate;*/
+
+/*	-webkit-animation-name: anime1;
+	-webkit-animation-duration: 0.1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;*/
+}
+html.ie9 body.pc #float {
+	position: fixed;
+
+	bottom: 5px;
+	right: 15px;
+	height: 55px;
+	width: 113px;
+	padding:10px;
+
+	/*background:rgba(0,43,163, 0.8);*/
+	background:rgba(136, 155, 1, 0.9);
+			/*その他向け*/
+
+	color:white;
+
+	border-radius: 5px 5px 5px 5px;
+	/*margin: 0 1% 0 80%;*/
+	z-index: 100;
+}
+html.ie9 body.pc #col_19{
+	width: 53px;
+}
+html.ie9 body.pc #col_19_2,
+html.ie9 body.pc #col_13_2,
+html.ie9 body.pc #col_13_3,
+html.ie9 body.pc #col_16{
+	width: 60px;
+}
+html.ie9 body.pc #col_17,
+html.ie9 body.pc #col_13{
+	width: 46px;
+}
+html.ie9 body.pc #col_16_2,
+html.ie9 body.pc #col_16_3{
+	width: 39px;
+}
+@-webkit-keyframes anime1 {
+	0% {width: 50px; height: 50px; background-color: aqua;}
+	100% {width: 200px; height: 50px; background-color: blue;}
+}
+@-webkit-keyframes anime {
+	0% {	opacity:1;	}
+	100% {	opacity:0;	}
+}
+
+@tmp(val1, vql2, val3) {
+	-webkit-animation-name: val1;
+	-webkit-animation-duration: vql2;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;
+
+	animation-name: val1;
+	animation-duration: vql2;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;
+}
+body#bodyID.pc form#frm input,
+body#bodyID.pc form#frm select{
+	background: white;
+}
+body#bodyID.pc form#formID .MouseoverNow{
+	background: #cedeef;
+	/*background: yellow;*/
+}
+body#bodyID.pc form#formID .blank {
+	/*background: #ffdddd;*/
+	background: #D9E996;
+}
+body#bodyID.pc form#formID .CursorFocusNow{
+	background: #ffffe5;
+	/*background: red;*/
+}
+body#bodyID.pc form#formID .MouseoverRadioNow{
+	color: #0066ff;
+	/*color: red;*/
+}
+/*住所検索body#bodyID.pc form#formID #B1{
+	display: none;
+}
+*/
+body#bodyID.pc form#formID #AutoAddressNum1{
+	width: 53px;
+}
+body#bodyID.pc form#formID #AutoAddressNum2{
+	width: 57px;
+}
+body#bodyID.pc form#formID #col_HP_OTHER{
+	margin-left: 20px;
+}
+
+/*width*/
+body#bodyID.pc form#formID #col_13,
+body#bodyID.pc form#formID #col_17{
+	width: 46px !important;
+}
+body#bodyID.pc form#formID #col_13_2,
+body#bodyID.pc form#formID #col_13_3,
+body#bodyID.pc form#formID #col_16{
+	width: 60px !important;
+}
+body#bodyID.pc form#formID #col_16_2,
+body#bodyID.pc form#formID #col_16_3,
+body#bodyID.pc form#formID #col_25{
+	width: 40px !important;
+}
+/*body#bodyID.pc form#formID #RadioID_3 label{
+	margin-left: 15px !important;
+}*/
+body#bodyID.pc form#formID #privacy{
+	margin-left: 15px !important;
+	margin-right: -5px !important;
+}
+body#bodyID form#formID .blankLogin {
+	background: #D9E996;
+}
+body#bodyID form#formID #js-checker #js-post2>div.js-hideOut {
+	height: 600px !important;
+}
+
+
+/*三井floatデザイン変更 ここから*/
+html.elseBL body#bodyID.pc #float:not(.countOk){ /*:not()が入ったセレクタが存在するとieは無視するため、別途*/
+	color: black;
+	background: white;
+	font-size: 14px;
+	/*border: solid 3px rgb(136, 155, 1);*/
+	/*height: 67px;*/
+	padding: 0;
+	border: none;
+	height: 95px;
+	width: 150px;
+	background: transparent url("../../img/backgroundNgImg.png") no-repeat;
+}
+html.elseBL body#bodyID.pc #float:not(.countOk) ul{
+	margin: 11px;
+}
+html.elseBL body#bodyID.pc #float ul{
+	margin-top: 13px;
+}
+html.elseBL body#bodyID.pc #float.countOk{ /*:not()が入ったセレクタが存在するとieは無視するため、別途*/
+	padding: 0;
+	border: none;
+	height: 64px;
+	width: 171px;
+	background: transparent url("../../img/backgroundOkImg.png") no-repeat;
+}
+
+html.ie body#bodyID.pc #float,
+html.ie9 body#bodyID.pc #float {
+	color: black;
+	background: white;
+	font-size: 14px;
+	/*border: solid 3px rgb(136, 155, 1);*/
+	padding: 0;
+	border: none;
+	height: 95px;
+	width: 150px;
+	background: transparent url("../../img/backgroundNgImg.png") no-repeat;
+}
+html.ie body#bodyID.pc #float ul{
+	margin-top: 12px;
+}
+html.ie9 body#bodyID.pc #float ul{
+	margin-top: 12px;
+	line-height: 1.5rem;
+}
+html.ie body#bodyID.pc #float.countOk ul,
+html.ie9 body#bodyID.pc #float.countOk ul{
+	margin-top: 5px;
+}
+html.elseBL body#bodyID.pc #float:not(.countOk) .countli{
+	width: 130px;
+	height: auto;
+}
+html.ie body#bodyID.pc #float .countli,
+html.ie9 body#bodyID.pc #float .countli {
+	width: 130px;
+	height: auto;
+}
+html.elseBL body#bodyID.pc #float:not(.countOk) .countspantext1{
+	color: red;
+	font-weight: bold;
+}
+html.ie body#bodyID.pc #float .countspantext1,
+html.ie9 body#bodyID.pc #float .countspantext1 {
+	color: red;
+	font-weight: bold;
+}
+
+/*ok対応（戻す） -ie用*/
+html.ie body#bodyID.pc  #float.countOk,
+html.ie9 body#bodyID.pc #float.countOk{
+	color: black;
+	background: rgb(38, 71, 115);
+	font-size: 15px;
+	padding: 0;
+	border: none;
+	height: 64px;
+	width: 171px;
+	background: transparent url("../../img/backgroundOkImg.png") no-repeat;
+}
+html.ie body#bodyID.pc #float .countli,
+html.ie9 body#bodyID.pc #float .countli {
+	width: 130px;
+}
+/*三井floatデザイン変更 ここまで*/

@@ -1,0 +1,25 @@
+﻿@charset "utf-8";
+
+/*
+input.error {
+	background: #D9E996;
+}*/
+
+
+.formError .formErrorContent {
+	background: #D9E996;
+	background: #499E03;
+	margin-left: 15px;
+	width: auto;
+}
+
+.formError .formErrorArrow div {
+	background: #D9E996;
+	background: #499E03;
+}
+form .err {
+	background: #D9E996;
+}
+form .onFocus {
+	background-color: #fff;
+}

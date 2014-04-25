@@ -1,0 +1,71 @@
+@charset "Shift_JIS";
+
+/* normalize
+---------------------------------------------------- */
+body,div,
+dl,dt,dd,
+ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+table,td,th,
+pre,code,
+form,fieldset,legend,input,textarea,
+p,blockquote,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	color: #333333;
+	font-weight: normal;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display: block;
+}
+body {
+	font-size: small;
+	line-height: 1;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset,img {
+	border: 0;
+}
+address,caption,cite,code,dfn,th,var {
+	font-style: normal;
+	font-weight: normal;
+}
+ol,ul { 
+	list-style: none;
+}
+caption,th {
+	text-align: left;
+}
+input, textarea, select {
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: 100%;
+}
+h1,h2,h3,h4,h5,h6 { 
+	font-size: 100%;
+}
+
+img {
+	vertical-align: middle;
+}
+
+/* clear
+---------------------------------------------------- */
+.clear {
+	clear: both;
+}
+.clearfix {
+	zoom:1;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
